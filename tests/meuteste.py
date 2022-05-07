@@ -30,9 +30,12 @@ else:
 
 plano = str(input('Faz parte do plano fidelidade?: '))
 
+
 if plano == 'Sim':
+    plano = "Reward"
     print('Olá, você faz parte do plano fidelidade, então temos alguns descontos para você!')
 else:
+    plano = "Regular"
     print('Por ficar de fora do nosso plano fidelidade você perderá alguns descontos!')
 
 num = 0
@@ -47,21 +50,21 @@ while num != 3:
                         '\nLakewood - R$110,00 / R$80,00 para usuários do plano fidelidade '
                         '\nBridgewood - R$160,00 / R$110,00 para usuários do plano fidelidade'
                         '\nRidgwood - R$220,00 / R$100,00 para usuário do plano fidelidade ----:')))
-        print(f'O {nome} foi o selecionado, venha fazer o check-in em {data}!')
+        print(f'{plano}: O {nome} foi o selecionado por ter o melhor preço para o usuário, venha fazer o check-in em {data}!')
         break
     elif num==2:
         nome=(str(input('---------Melhores avalições-------'
                         '\nRidgewood - Classificação - 5'
                         '\nBridgewood - Classificação - 4'
                         '\nLakewood - Classificação - 3 ------:')))
-        print(f'O {nome} foi o selecionado, venha fazer o check-in em {data}!')
+        print(f'{plano}: O {nome} foi o selecionado por ter a melhor avaliação para o usuário, venha fazer o check-in em {data}!')
         break
     elif num==3:
         nome=(str(input('Melhores preços no fim de semana (Digite o escolhido no final)'
                         '\nLakewood - R$90,00 / R$80,00 para usuários do plano fidelidade '
                         '\nBridgewood - R$60,00 / R$50,00 para usuários do plano fidelidade'
                         '\nRidgwood - R$150,00 / R$40,00 para usuário do plano fidelidade ----:')))
-        print(f'O {nome} foi o selecionado, venha fazer o check-in {data}!')
+        print(f'{plano}: O {nome} foi o selecionado pelo melhor preço, venha fazer o check-in {data}!')
         break
     elif num==4:
        print("Você voltou!")
