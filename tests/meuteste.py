@@ -14,7 +14,7 @@
 #final de semana  normais/reward - R$150/R$40 
 
 
-data = str(input('Quais aa datas para reserva? (Digite com a formatação correta DD/MM/AA): '))
+data = str(input('Quais as datas para reserva? (Digite com a formatação correta DD/MM/AA): '))
 dia = str(input('Qual o dia da semana?:'))
 
 if dia == "Sabado"  :
@@ -67,7 +67,8 @@ while num != 3:
         print(f'{plano}: O {nome} foi o selecionado pelo melhor preço, venha fazer o check-in em {data}!')
         break
     elif num==4:
-       print("Você voltou!")
+       print("Até mais!")
+       break
     print('Saindo da seleção...')
 
 
