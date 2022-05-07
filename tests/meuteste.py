@@ -64,7 +64,7 @@ while num != 3:
                         '\nLakewood - R$90,00 / R$80,00 para usuários do plano fidelidade '
                         '\nBridgewood - R$60,00 / R$50,00 para usuários do plano fidelidade'
                         '\nRidgwood - R$150,00 / R$40,00 para usuário do plano fidelidade ----:')))
-        print(f'{plano}: O {nome} foi o selecionado pelo melhor preço, venha fazer o check-in {data}!')
+        print(f'{plano}: O {nome} foi o selecionado pelo melhor preço, venha fazer o check-in em {data}!')
         break
     elif num==4:
        print("Você voltou!")
