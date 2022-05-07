@@ -1,3 +1,4 @@
+#Candidato - Eduardo Kleber Santos Silva
 #Lakewood
 #classificação - 3
 #dia de semana  normais/reward - R$110/R$80
